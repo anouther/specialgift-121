@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Happy 3rd Month Anniversary baby.').split('');
+        const titles = (' I adore and cherish you, Serabelle. ').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Three months down, forever to go. Each day with you feels like a new chapter in a beautiful story I never want to end. Here’s to the start of something timeless, a bond that only grows stronger with every heartbeat. Happy 3rd month, my love—you are my greatest blessing and my forever";
+            subtitle.innerText = "Here’s a little gift for you since you’re so into flowers. I love you so much";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
